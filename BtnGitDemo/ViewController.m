@@ -17,6 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = ({
+        UIButton *btn = [[UIButton alloc]init];
+        btn;
+    });
+    [self.view addSubview:btn];
+    
+    
+    UIView *view = ({
+        UIView *view = [[UIView alloc]init];
+        view;
+    });
+    [self.view addSubview:view];
 }
 
 
